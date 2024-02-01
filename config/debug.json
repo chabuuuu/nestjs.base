@@ -1,0 +1,6 @@
+{
+    "request-limit": {
+        "limit": "500kb"
+    },
+    "enviroment": "debug"
+}

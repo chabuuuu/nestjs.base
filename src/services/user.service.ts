@@ -47,9 +47,7 @@ export class UserService extends BaseService<User, UserRepository>{
         try {
             const respond = await super.delete(params);
             return respond
-        } catch (error) {
-            console.log("error", error);
-            
+        } catch (error) {    
             throw error
         }
     }

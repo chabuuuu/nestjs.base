@@ -1,0 +1,18 @@
+{
+    "RabbitMQ": {
+      "connectionString": "amqp://localhost:5672"
+    },
+    "request-limit": {
+        "limit": "100kb"
+    },
+    "json-compress": {
+        "enable": false
+    },
+    "cors": {
+        "origin": "*",
+        "methods": ["GET", "POST", "PUT", "DELETE", "UPDATE"],
+        "allowedHeaders": ["X-Requested-With", "X-HTTP-Method-Override", "Content-Type", "Accept", "Observe"]
+    },
+    "enviroment": "development"
+
+}
