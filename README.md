@@ -5,6 +5,7 @@ A base NestJS project that I create to easily apply to almost all Backend Projec
 - Using Prisma ORM (TypeORM, Sequelize can do the same, just change a little).
 - Using route concept like Express to manage route easily .
 - Some of general CRUD function will be on Repository/base and Service/base, new Repository/Service just extend it.
+
 Run:
 ```
 npm run start:dev //development enviroment
