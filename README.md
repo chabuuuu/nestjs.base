@@ -8,8 +8,6 @@ A base NestJS project that I create to easily apply to almost all Backend Projec
 
 - You can apply middleware for specific controller/endpoint (Set this on /Module)
 
-Hope this will help you 
-
 
 Run:
 ```
@@ -19,3 +17,6 @@ npm run start:prod //development enviroment
 
 npm run start:debug //debug enviroment
 ```
+
+Hope this repo will help you 
+If you dont mine, please give me a star ⭐
