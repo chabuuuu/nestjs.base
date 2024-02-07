@@ -2,9 +2,9 @@
 A base NestJS project that I create to easily apply to almost all Backend Project With Prisma. 
 - This base source use Repository Pattern: Controller -> Service -> Repository -> Model
 - Using Class Generic so will be easy to use
-- Using Prisma ORM (TypeORM, Sequelize can do the same, just change a little)
-- Using route concept like Express to manage route easily 
-
+- Using Prisma ORM (TypeORM, Sequelize can do the same, just change a little).
+- Using route concept like Express to manage route easily .
+- Some of general CRUD function will be on Repository/base and Service/base, new Repository/Service just extend it.
 Run:
 ```
 npm run start:dev //development enviroment
